@@ -1,0 +1,450 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "title": "Rateios de Concursos Pro",
+  "settings": {
+    "layout": {
+      "type": "default",
+      "contentSize": "1200px",
+      "wideSize": "1400px"
+    },
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {
+          "color": "#0b5ed7",
+          "name": "Azul Principal",
+          "slug": "primary-blue"
+        },
+        {
+          "color": "#0d1b2a",
+          "name": "Azul Escuro",
+          "slug": "dark-blue"
+        },
+        {
+          "color": "#f7b801",
+          "name": "Amarelo Destaque",
+          "slug": "highlight-yellow"
+        },
+        {
+          "color": "#ffffff",
+          "name": "Branco",
+          "slug": "white"
+        },
+        {
+          "color": "#f4f7fb",
+          "name": "Cinza Fundo",
+          "slug": "light-gray"
+        },
+        {
+          "color": "#596578",
+          "name": "Texto Secundário",
+          "slug": "text-gray"
+        },
+        {
+          "color": "#27ae60",
+          "name": "Verde Sucesso",
+          "slug": "success-green"
+        },
+        {
+          "color": "#e74c3c",
+          "name": "Vermelho Alerta",
+          "slug": "alert-red"
+        }
+      ],
+      "gradients": [
+        {
+          "gradient": "linear-gradient(135deg, #0b5ed7 0%, #0d1b2a 100%)",
+          "name": "Gradiente Azul",
+          "slug": "gradient-blue"
+        },
+        {
+          "gradient": "linear-gradient(135deg, #f7b801 0%, #0b5ed7 100%)",
+          "name": "Gradiente Quente",
+          "slug": "gradient-warm"
+        }
+      ]
+    },
+    "typography": {
+      "defaultFontSizes": false,
+      "fontSizes": [
+        {
+          "fluid": {
+            "max": "14px",
+            "min": "12px"
+          },
+          "name": "Extra pequeno",
+          "size": "12px",
+          "slug": "x-small"
+        },
+        {
+          "fluid": {
+            "max": "16px",
+            "min": "14px"
+          },
+          "name": "Pequeno",
+          "size": "14px",
+          "slug": "small"
+        },
+        {
+          "fluid": {
+            "max": "18px",
+            "min": "16px"
+          },
+          "name": "Normal",
+          "size": "16px",
+          "slug": "medium"
+        },
+        {
+          "fluid": {
+            "max": "24px",
+            "min": "20px"
+          },
+          "name": "Grande",
+          "size": "24px",
+          "slug": "large"
+        },
+        {
+          "fluid": {
+            "max": "32px",
+            "min": "28px"
+          },
+          "name": "Muito grande",
+          "size": "32px",
+          "slug": "x-large"
+        },
+        {
+          "fluid": {
+            "max": "48px",
+            "min": "36px"
+          },
+          "name": "Enorme",
+          "size": "48px",
+          "slug": "xx-large"
+        },
+        {
+          "fluid": {
+            "max": "64px",
+            "min": "52px"
+          },
+          "name": "Mega",
+          "size": "64px",
+          "slug": "heading-1"
+        }
+      ],
+      "fontFamilies": [
+        {
+          "fontFamily": "'Poppins', sans-serif",
+          "name": "Poppins",
+          "slug": "poppins",
+          "fontFace": [
+            {
+              "fontFamily": "Poppins",
+              "fontStyle": "normal",
+              "fontWeight": "400 700",
+              "src": [
+                "url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap')"
+              ]
+            }
+          ]
+        },
+        {
+          "fontFamily": "'Inter', sans-serif",
+          "name": "Inter",
+          "slug": "inter",
+          "fontFace": [
+            {
+              "fontFamily": "Inter",
+              "fontStyle": "normal",
+              "fontWeight": "400 700",
+              "src": [
+                "url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap')"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "spacing": {
+      "defaultSpacingSizes": false,
+      "spacingSizes": [
+        {
+          "name": "Micro",
+          "size": "4px",
+          "slug": "1"
+        },
+        {
+          "name": "Extra Pequeno",
+          "size": "8px",
+          "slug": "2"
+        },
+        {
+          "name": "Pequeno",
+          "size": "12px",
+          "slug": "3"
+        },
+        {
+          "name": "Normal",
+          "size": "16px",
+          "slug": "4"
+        },
+        {
+          "name": "Médio",
+          "size": "24px",
+          "slug": "5"
+        },
+        {
+          "name": "Grande",
+          "size": "32px",
+          "slug": "6"
+        },
+        {
+          "name": "Muito Grande",
+          "size": "48px",
+          "slug": "7"
+        },
+        {
+          "name": "Enorme",
+          "size": "64px",
+          "slug": "8"
+        }
+      ]
+    },
+    "blocks": {
+      "core/button": {
+        "border": {
+          "radius": true
+        },
+        "color": {
+          "text": true,
+          "background": true,
+          "gradients": true
+        },
+        "spacing": {
+          "padding": true
+        },
+        "typography": {
+          "fontSize": true,
+          "fontStyle": true,
+          "fontWeight": true,
+          "lineHeight": true,
+          "textDecoration": true,
+          "textTransform": true
+        }
+      },
+      "core/heading": {
+        "color": {
+          "text": true,
+          "gradients": true
+        },
+        "typography": {
+          "fontSize": true,
+          "fontStyle": true,
+          "fontWeight": true,
+          "lineHeight": true,
+          "textDecoration": true,
+          "textTransform": true
+        }
+      },
+      "core/paragraph": {
+        "color": {
+          "text": true
+        },
+        "typography": {
+          "fontSize": true,
+          "fontStyle": true,
+          "fontWeight": true,
+          "lineHeight": true
+        }
+      },
+      "woocommerce/product-gallery": {
+        "spacing": {
+          "margin": true,
+          "padding": true
+        }
+      },
+      "woocommerce/product-image": {
+        "spacing": {
+          "margin": true,
+          "padding": true
+        }
+      }
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#ffffff",
+      "text": "#0d1b2a"
+    },
+    "elements": {
+      "heading": {
+        "color": {
+          "text": "#0d1b2a"
+        },
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--poppins)",
+          "fontWeight": "700",
+          "lineHeight": 1.2
+        }
+      },
+      "link": {
+        "color": {
+          "text": "#0b5ed7"
+        },
+        ":hover": {
+          "color": {
+            "text": "#f7b801"
+          }
+        }
+      },
+      "button": {
+        "border": {
+          "radius": "8px"
+        },
+        "color": {
+          "background": "#0b5ed7",
+          "text": "#ffffff"
+        },
+        "padding": {
+          "top": "12px",
+          "right": "24px",
+          "bottom": "12px",
+          "left": "24px"
+        },
+        "typography": {
+          "fontWeight": "600",
+          "fontSize": "16px"
+        }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "border": {
+          "radius": "8px"
+        },
+        "color": {
+          "background": "#0b5ed7",
+          "text": "#ffffff"
+        },
+        ":hover": {
+          "color": {
+            "background": "#0d1b2a",
+            "text": "#f7b801"
+          }
+        }
+      },
+      "core/heading": {
+        "color": {
+          "text": "#0d1b2a"
+        },
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--poppins)",
+          "fontWeight": "700"
+        }
+      },
+      "core/paragraph": {
+        "color": {
+          "text": "#596578"
+        },
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--inter)",
+          "fontSize": "16px",
+          "lineHeight": 1.6
+        }
+      },
+      "core/post-title": {
+        "color": {
+          "text": "#0d1b2a"
+        },
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--poppins)",
+          "fontWeight": "700",
+          "fontSize": "var(--wp--preset--font-size--heading-1)"
+        }
+      },
+      "woocommerce/product-rating": {
+        "color": {
+          "text": "#f7b801"
+        }
+      }
+    }
+  },
+  "customTemplates": [
+    {
+      "name": "hero-section",
+      "title": "Página Hero Completa",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "landing-curso",
+      "title": "Landing de Curso Individual",
+      "postTypes": [
+        "page",
+        "product"
+      ]
+    },
+    {
+      "name": "catalogo-cursos",
+      "title": "Catálogo de Cursos",
+      "postTypes": [
+        "page"
+      ]
+    }
+  ],
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Cabeçalho",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Rodapé",
+      "area": "footer"
+    },
+    {
+      "name": "sidebar",
+      "title": "Barra Lateral",
+      "area": "uncategorized"
+    }
+  ],
+  "patterns": [
+    {
+      "name": "hero-principal",
+      "title": "Hero Principal",
+      "description": "Banner hero com CTA e imagem de fundo",
+      "categories": [
+        "buttons",
+        "hero"
+      ]
+    },
+    {
+      "name": "categoria-curso",
+      "title": "Card Categoria Curso",
+      "description": "Card com ícone e título de categoria",
+      "categories": [
+        "cards",
+        "gallery"
+      ]
+    },
+    {
+      "name": "depoimento",
+      "title": "Bloco de Depoimento",
+      "description": "Card com depoimento de aluno",
+      "categories": [
+        "testimonial"
+      ]
+    },
+    {
+      "name": "cta-final",
+      "title": "CTA Final",
+      "description": "Chamada final para ação",
+      "categories": [
+        "buttons",
+        "call-to-action"
+      ]
+    }
+  ]
+}
